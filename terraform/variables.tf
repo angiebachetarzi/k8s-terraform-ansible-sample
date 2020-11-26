@@ -33,11 +33,11 @@ variable ansibleFilter {
 
 # Networking setup
 variable region {
-  default = "eu-west-1"
+  default = "us-east-1"
 }
 
 variable zone {
-  default = "eu-west-1a"
+  default = "us-east-1"
 }
 
 ### VARIABLES BELOW MUST NOT BE CHANGED ###
@@ -62,7 +62,7 @@ variable amis {
     eu-central-1 = "ami-8504fdea"
     eu-west-1 = "ami-0d77397e"
     sa-east-1 = "ami-e93da085"
-    us-east-1 = "ami-40d28157"
+    us-east-1 = "ami-0a637272c28e8be71"
     us-west-1 = "ami-6e165d0e"
     us-west-2 = "ami-a9d276c9"
   }
